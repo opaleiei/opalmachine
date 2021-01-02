@@ -1,4 +1,4 @@
-printf "OPAL VMACHINE" >&2
+printf "OPAL VMACHINE  " >&2
 #! /bin/bash
 printf "Installing... " >&2
 {

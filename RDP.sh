@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 printf "Installing... " >&2
 {
 sudo useradd -m OPAL

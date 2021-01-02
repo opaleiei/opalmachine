@@ -1,3 +1,4 @@
+printf "OPAL MACHINE" >&2
 #!/bin/bash
 printf "Installing... " >&2
 {

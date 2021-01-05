@@ -19,31 +19,6 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
-sudo apt install nano
-sudo nano /etc/apt/sources.list
-deb http://security.ubuntu.com/ubuntu focal-security restricted main
-# deb-src http://security.ubuntu.com/ubuntu focal-security restricted main
-deb http://security.ubuntu.com/ubuntu focal-security universe
-# deb-src http://security.ubuntu.com/ubuntu focal-security universe
-deb http://security.ubuntu.com/ubuntu focal-security multiverse
-# deb-src http://security.ubuntu.com/ubuntu focal-security multiverse
-deb http://archive.ubuntu.com/ubuntu focal restricted main multiverse universe
-# deb-src http://archive.ubuntu.com/ubuntu focal restricted main multiverse universe
-deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
-# deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
-# deb-src http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
-# deb-src http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
-deb http://mirrors.lug.mtu.edu/ubuntu focal main
-# deb-src http://mirrors.lug.mtu.edu/ubuntu focal main
-deb http://mirrors.edge.kernel.org/ubuntu focal main
-# deb-src http://mirrors.edge.kernel.org/ubuntu focal main
-deb http://ubuntu.mirrors.tds.net/ubuntu focal main
-# deb-src http://ubuntu.mirrors.tds.net/ubuntu focal main
-
-
-
 sudo adduser OPAL chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Complete " >&2 ||
